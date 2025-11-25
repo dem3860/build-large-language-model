@@ -12,6 +12,13 @@ build_large_language_model.egg-info/SOURCES.txt
 build_large_language_model.egg-info/dependency_links.txt
 build_large_language_model.egg-info/requires.txt
 build_large_language_model.egg-info/top_level.txt
+embedding_step/byte-pair-encoding.py
+embedding_step/embedding.py
+embedding_step/pos-embedding.py
+embedding_step/simpleDataLoader.py
+embedding_step/simpleTokenizer.py
+embedding_step/sliding-window.py
+embedding_step/tokenizer.py
 gpt_model/config.py
 gpt_model/feed_forward.py
 gpt_model/gelu.py
@@ -20,4 +27,11 @@ gpt_model/gpt_model.py
 gpt_model/layer_norm.py
 gpt_model/shortcut.py
 gpt_model/transformer.py
+pre_training/calc_loss.py
 pre_training/config.py
+pre_training/eval_flow.py
+pre_training/install_gpt2_params.py
+pre_training/load_weights_into_gpt.py
+pre_training/plot.py
+pre_training/train_model.py
+pre_training/util.py

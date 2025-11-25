@@ -35,7 +35,7 @@ def create_dataloader_v1(txt, batch_size=4, max_length=256, stride=128,
     )
     return dataloader
 
-with open("embedding/the-verdict.txt", "r", encoding="utf-8") as f:
+with open("embedding_step/the-verdict.txt", "r", encoding="utf-8") as f:
    raw_text = f.read()
 
 dataloader = create_dataloader_v1(raw_text,batch_size=8,max_length=4,stride=4,shuffle=False)
