@@ -19,6 +19,9 @@ embedding_step/simpleDataLoader.py
 embedding_step/simpleTokenizer.py
 embedding_step/sliding-window.py
 embedding_step/tokenizer.py
+fine_tuning/dataset.py
+fine_tuning/fine_tuning.py
+fine_tuning/util.py
 gpt_model/config.py
 gpt_model/feed_forward.py
 gpt_model/gelu.py

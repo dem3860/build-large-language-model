@@ -7,6 +7,7 @@ Description-Content-Type: text/markdown
 Requires-Dist: assign>=1.0.1
 Requires-Dist: matplotlib>=3.10.7
 Requires-Dist: numpy>=2.3.5
+Requires-Dist: pandas>=2.3.3
 Requires-Dist: requests>=2.32.5
 Requires-Dist: tensorflow>=2.20.0
 Requires-Dist: tiktoken>=0.12.0
