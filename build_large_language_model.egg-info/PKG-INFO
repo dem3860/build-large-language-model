@@ -1,0 +1,11 @@
+Metadata-Version: 2.4
+Name: build-large-language-model
+Version: 0.1.0
+Summary: Add your description here
+Requires-Python: >=3.12
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib>=3.10.7
+Requires-Dist: numpy>=2.3.5
+Requires-Dist: requests>=2.32.5
+Requires-Dist: tiktoken>=0.12.0
+Requires-Dist: torch>=2.9.1

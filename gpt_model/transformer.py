@@ -1,11 +1,7 @@
-import sys
-import os
-sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
-
 from attention.multi_head_attention import MultiHeadAttention
-from feed_forward import FeedForward
-from layer_norm import LayerNorm
-from config import GPT_CONFIG_124M
+from gpt_model.feed_forward import FeedForward
+from gpt_model.layer_norm import LayerNorm
+from gpt_model.config import GPT_CONFIG_124M
 import torch
 import torch.nn as nn
 

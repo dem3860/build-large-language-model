@@ -1,7 +1,7 @@
 import torch 
 import tiktoken
-from gpt_model import GPTModel
-from config import GPT_CONFIG_124M
+from gpt_model.gpt_model import GPTModel
+from gpt_model.config import GPT_CONFIG_124M
 
 def generate_text_simple(model,idx,max_new_tokens,context_size):
     idx_cond = idx[:,-context_size:]
