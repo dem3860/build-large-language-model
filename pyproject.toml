@@ -13,4 +13,4 @@ dependencies = [
 ]
 
 [tool.setuptools]
-packages = ["attention", "gpt_model", "pre_training"]
+packages = ["attention", "gpt_model", "pre_training", "embedding_step"]
